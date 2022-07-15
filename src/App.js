@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      simple
+      <ul>
+          <li>css</li>
+          <li>js</li>
+          <li>react</li>
+      </ul>
     </div>
   );
 }
