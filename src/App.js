@@ -1,15 +1,18 @@
 import './App.css';
+import Technologies from "./Technologies";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const App = () => {
   return (
-    <div className="App">
-      <ul>
-          <li>css</li>
-          <li>js</li>
-          <li>react</li>
-      </ul>
-    </div>
+      <div>
+          <Header/>
+          <Technologies/>
+          <Footer/>
+      </div>
+
   );
 }
 
 export default App;
+
